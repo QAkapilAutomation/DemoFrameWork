@@ -2,16 +2,17 @@ package com.demo.TestScripts;
 
 import org.testng.annotations.Test;
 
-public class Verify_The_Registrartion_Page {
+import com.guruweb.testBase.TestBase;
+import com.relevantcodes.extentreports.LogStatus;
+
+public class Verify_The_Registrartion_Page extends TestBase {
 	
 	@Test()
 	public void testmethod() {
-		System.out.println("test scripts");
+		
+		System.out.println("Application launched ");
+		test.log(LogStatus.PASS, "Guru Application launched succesfully launched");
 	}
 	
-	@Test()
-	public void testmethod1() {
-		System.out.println("test scripts1");
-	}
-
+	
 }
