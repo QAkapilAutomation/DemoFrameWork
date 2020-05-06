@@ -8,7 +8,7 @@
           <include name="Setup"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="testmethod"/>
+          <include name="LoginToTheApplication"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.demo.TestScripts.Verify_The_Registrartion_Page -->
