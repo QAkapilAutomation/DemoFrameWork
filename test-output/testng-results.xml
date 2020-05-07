@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25084" started-at="2020-05-06T11:52:02Z" finished-at="2020-05-06T11:52:27Z">
+  <suite name="Suite" duration-ms="29361" started-at="2020-05-07T09:01:44Z" finished-at="2020-05-07T09:02:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25084" started-at="2020-05-06T11:52:02Z" finished-at="2020-05-06T11:52:27Z">
+    <test name="Test" duration-ms="29361" started-at="2020-05-07T09:01:44Z" finished-at="2020-05-07T09:02:13Z">
       <class name="com.demo.TestScripts.Verify_The_Registrartion_Page">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="Setup" is-config="true" duration-ms="9539" started-at="2020-05-06T07:52:02Z" finished-at="2020-05-06T07:52:12Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="Setup" is-config="true" duration-ms="10041" started-at="2020-05-07T05:01:44Z" finished-at="2020-05-07T05:01:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="beforeMethod" is-config="true" duration-ms="22" started-at="2020-05-06T07:52:12Z" finished-at="2020-05-06T07:52:12Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="beforeMethod" is-config="true" duration-ms="29" started-at="2020-05-07T05:01:54Z" finished-at="2020-05-07T05:01:54Z">
           <params>
             <param index="0">
               <value>
@@ -22,26 +22,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="LoginToTheApplication()[pri:1, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="LoginToTheApplication" duration-ms="2204" started-at="2020-05-06T07:52:12Z" finished-at="2020-05-06T07:52:14Z">
+        <test-method status="PASS" signature="LoginToTheApplication()[pri:1, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="LoginToTheApplication" duration-ms="1790" started-at="2020-05-07T05:01:54Z" finished-at="2020-05-07T05:01:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginToTheApplication -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="afterMethod" is-config="true" duration-ms="734" started-at="2020-05-06T07:52:14Z" finished-at="2020-05-06T07:52:15Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="afterMethod" is-config="true" duration-ms="840" started-at="2020-05-07T05:01:56Z" finished-at="2020-05-07T05:01:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginToTheApplication status=SUCCESS method=Verify_The_Registrartion_Page.LoginToTheApplication()[pri:1, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa] output={null}]]]>
+                <![CDATA[[TestResult name=LoginToTheApplication status=SUCCESS method=Verify_The_Registrartion_Page.LoginToTheApplication()[pri:1, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="Setup" is-config="true" duration-ms="10200" started-at="2020-05-06T07:52:15Z" finished-at="2020-05-06T07:52:25Z">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="Setup" is-config="true" duration-ms="14441" started-at="2020-05-07T05:01:57Z" finished-at="2020-05-07T05:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-05-06T07:52:25Z" finished-at="2020-05-06T07:52:25Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-07T05:02:11Z" finished-at="2020-05-07T05:02:11Z">
           <params>
             <param index="0">
               <value>
@@ -52,26 +52,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="BookAFlight()[pri:2, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="BookAFlight" duration-ms="1429" started-at="2020-05-06T07:52:25Z" finished-at="2020-05-06T07:52:26Z">
+        <test-method status="PASS" signature="BookAFlight()[pri:2, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="BookAFlight" duration-ms="1257" started-at="2020-05-07T05:02:11Z" finished-at="2020-05-07T05:02:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BookAFlight -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="afterMethod" is-config="true" duration-ms="696" started-at="2020-05-06T07:52:26Z" finished-at="2020-05-06T07:52:27Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="afterMethod" is-config="true" duration-ms="683" started-at="2020-05-07T05:02:12Z" finished-at="2020-05-07T05:02:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=BookAFlight status=SUCCESS method=Verify_The_Registrartion_Page.BookAFlight()[pri:2, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa] output={null}]]]>
+                <![CDATA[[TestResult name=BookAFlight status=SUCCESS method=Verify_The_Registrartion_Page.BookAFlight()[pri:2, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@50b472aa]" name="endTest" is-config="true" duration-ms="236" started-at="2020-05-06T07:52:27Z" finished-at="2020-05-06T07:52:27Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.demo.TestScripts.Verify_The_Registrartion_Page@130161f7]" name="endTest" is-config="true" duration-ms="255" started-at="2020-05-07T05:02:13Z" finished-at="2020-05-07T05:02:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.demo.TestScripts.Verify_The_Registrartion_Page -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
