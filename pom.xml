@@ -20,7 +20,7 @@
 				<configuration>
 					<forkCount>0</forkCount>
 					<suiteXmlFiles>
-						<suiteXmlFile>${testng}.xml</suiteXmlFile>
+						<suiteXmlFile>/src/test/resources/regression/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<properties>
 						<property>
