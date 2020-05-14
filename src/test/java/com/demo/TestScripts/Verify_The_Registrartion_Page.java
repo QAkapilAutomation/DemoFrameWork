@@ -30,7 +30,7 @@ public class Verify_The_Registrartion_Page extends TestBase {
 
 	}
 
-	@Test(priority = 2)
+	//@Test(priority = 2)
 	public void BookAFlight() {
 
 		driver.findElement(By.xpath("//a[text()='Flights']")).click();
