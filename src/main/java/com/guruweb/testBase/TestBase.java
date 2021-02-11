@@ -47,7 +47,7 @@ public class TestBase {
 	public void Setup() {
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
+				System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
